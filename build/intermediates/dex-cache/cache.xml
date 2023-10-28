@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\gigi\Desktop\MyAuto2 - Copy - Copy - Copy 2\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="debf30ce0a7560396b6235edef77e447006454c2">
+        <dex dex="C:\Users\gigi\Desktop\MyAuto2 - Copy - Copy - Copy 2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.3.0_62f76f79f8c684d92546298bdd2461b5932bac50\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\gigi\Desktop\MyAuto2 - Copy - Copy - Copy 2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="C:\Users\gigi\Desktop\MyAuto2 - Copy - Copy - Copy 2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.3.0_6588e82ae674bcc16f7cc1f71d4df62418b0b6ce\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\gigi\Desktop\MyAuto2 - Copy - Copy - Copy 2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="a9d2d6d38d48ef7b85907156113db998014c996e">
+        <dex dex="C:\Users\gigi\Desktop\MyAuto2 - Copy - Copy - Copy 2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_2a04258b92ab80aecba32714e639c0a011b9245b\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\gigi\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="C:\Users\gigi\Desktop\MyAuto2 - Copy - Copy - Copy 2\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.3.0_897e88846cfc41a3d288543d7037c9d9e8561ee1\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\gigi\Desktop\MyAuto2 - Copy - Copy - Copy 2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="7307028f13bc1c6d59cc5a0639e214510946f864">
+        <dex dex="C:\Users\gigi\Desktop\MyAuto2 - Copy - Copy - Copy 2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_846040b63c81ce972c1794676901c6d7a4f72601\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\gigi\Desktop\MyAuto2 - Copy - Copy - Copy 2\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="C:\Users\gigi\Desktop\MyAuto2 - Copy - Copy - Copy 2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.3.0_4ec194a427fd48d1bd8f8da432d3e1a94aaf5ae1\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\gigi\Desktop\MyAuto2 - Copy - Copy - Copy 2\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="C:\Users\gigi\Desktop\MyAuto2 - Copy - Copy - Copy 2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.3.0_572b9f25c6eba9cf5f3e4ede296f6432c1e3cab1\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\gigi\Desktop\MyAuto2 - Copy - Copy - Copy 2\app\build\intermediates\exploded-aar\com.android.support\design\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
+        <dex dex="C:\Users\gigi\Desktop\MyAuto2 - Copy - Copy - Copy 2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.3.0_9fbdf95361e834d20c5c336b2e0572a021495532\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\gigi\Desktop\MyAuto2 - Copy - Copy - Copy 2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="C:\Users\gigi\Desktop\MyAuto2 - Copy - Copy - Copy 2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.3.0_c9afede4d15c85383d7c73bc4e38336f9181275a\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\gigi\Desktop\MyAuto2 - Copy - Copy - Copy 2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\libs\internal_impl-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="C:\Users\gigi\Desktop\MyAuto2 - Copy - Copy - Copy 2\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.3.0_84979515efcc9560ad99f609994fb7b23d732a34\classes.dex" />
+    </item>
+
+</items>

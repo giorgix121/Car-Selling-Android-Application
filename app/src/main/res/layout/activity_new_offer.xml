@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="gigi.myauto.NewOfferActivity">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/price_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/price_et"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/Price_hint"
+                android:inputType="number" />
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/Color_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/color_et"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/Color_hint"
+                android:inputType="textPersonName" />
+
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/model_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/model_et"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/Model_hint"
+                android:inputType="textPersonName" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/engine_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/engine_et"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/Engine_hint"
+                android:inputType="textPersonName" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/mileage_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/mileage_et"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/Mileage_hint"
+                android:inputType="number" />
+            </android.support.design.widget.TextInputLayout>
+
+            <EditText
+                android:id="@+id/drivetrain_et"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Drivetrain"
+                android:inputType="textPersonName" />
+
+
+            <ImageView
+                android:id="@+id/offer_image"
+                android:src="@mipmap/ic_launcher"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <CheckBox
+                android:id="@+id/abs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="ABS" />
+
+            <CheckBox
+                android:id="@+id/aircon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ABS"
+                android:checked="false"
+                android:text="aircon" />
+
+            <CheckBox
+                android:id="@+id/fourxfour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/aircon"
+                android:checked="false"
+                android:text="4X4" />
+
+            <CheckBox
+                android:id="@+id/power_windows"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fourxfour"
+                android:checked="false"
+                android:text="Power Windows" />
+
+            <CheckBox
+                android:id="@+id/cruise_control"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/power_windows"
+                android:checked="false"
+                android:text="Cruise Control" />
+
+            <CheckBox
+                android:id="@+id/system_monitor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/checkBox5"
+                android:checked="false"
+                android:text="Systems Monitor" />
+
+            <CheckBox
+                android:id="@+id/power_door_locks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/system_monitor"
+                android:checked="false"
+                android:text="Power Door Locks" />
+
+            <CheckBox
+                android:id="@+id/mp3_player"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/ABS"
+                android:checked="false"
+                android:text="Mp3 Player" />
+
+            <CheckBox
+                android:id="@+id/analog_display"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/checkBox2"
+                android:checked="false"
+                android:text="Analog Display" />
+
+            <CheckBox
+                android:id="@+id/air_filtration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/checkBox7"
+                android:checked="false"
+                android:text="Air Filtration" />
+
+            <CheckBox
+                android:id="@+id/chrome_bodyside_insert"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/checkBox8"
+                android:checked="false"
+                android:text="Chrome Bodyside Insert" />
+
+            <CheckBox
+                android:id="@+id/rearSpoiler"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="Rear Spoiler" />
+
+            <CheckBox
+                android:id="@+id/bluetooth_connection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/checkBox9"
+                android:checked="false"
+                android:text="Bluetooth Connection" />
+
+            <CheckBox
+                android:id="@+id/stereo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/checkBox11"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:checked="false"
+                android:text="Am/Fm Stereo" />
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/description_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/short_description_et"
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:inputType="textLongMessage"
+                android:hint="@string/description_hint" />
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/place_offer_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Place Offer" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

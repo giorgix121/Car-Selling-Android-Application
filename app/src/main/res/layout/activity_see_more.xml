@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+
+
+        <ImageView
+            android:id="@+id/car_image_view"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_column="0"
+            android:layout_margin="35dp"
+            android:layout_row="0"
+            android:background="@drawable/icon_car" />
+
+        <TextView
+            android:id="@+id/model_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginTop="50dp"
+            android:layout_row="0"
+            android:paddingRight="40dp"
+            android:text="Lexus GX 460"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_margin="30dp"
+            android:layout_row="1"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/color_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="2"
+            android:paddingLeft="15dp"
+            android:text="Color: Black"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/mileage_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="2"
+            android:text="Mileage: 90.000"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/black" />
+
+
+        <TextView
+            android:id="@+id/engine_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="3"
+            android:paddingLeft="15dp"
+            android:text="Engine: 4.6"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/drivetrain_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="3"
+            android:text="Drivetrain: AWD"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/black" />
+
+        <Gallery
+            android:id="@+id/gallery"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_column="0"
+            android:layout_row="4" />
+
+
+        <TextView
+            android:id="@+id/abs_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginTop="5dp"
+            android:layout_row="5"
+            android:paddingLeft="15dp"
+            android:text="Abs"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:id="@+id/abs_iv_tick"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_column="1"
+            android:layout_marginLeft="-10dp"
+            android:layout_row="5"
+            android:src="@drawable/tick"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/abs_iv_cross"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_column="1"
+            android:layout_marginTop="8dp"
+            android:layout_row="5"
+            android:src="@drawable/cross"
+            android:visibility="invisible" />
+
+        <!--<TextView-->
+            <!--android:id="@+id/aircon_tv"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_column="0"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:layout_row="6"-->
+            <!--android:paddingLeft="15dp"-->
+            <!--android:text="Aircon"-->
+            <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+            <!--android:textSize="18dp" />-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/airocn_iv_tick"-->
+            <!--android:layout_width="35dp"-->
+            <!--android:layout_height="35dp"-->
+            <!--android:layout_column="1"-->
+            <!--android:layout_marginLeft="-10dp"-->
+            <!--android:layout_row="6"-->
+            <!--android:src="@drawable/tick"-->
+            <!--android:visibility="invisible" />-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/aircon_iv_cross"-->
+            <!--android:layout_width="15dp"-->
+            <!--android:layout_height="15dp"-->
+            <!--android:layout_column="1"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:layout_row="6"-->
+            <!--android:src="@drawable/cross"-->
+            <!--android:visibility="invisible" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/fourxfour_tv"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_column="0"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:layout_row="7"-->
+            <!--android:paddingLeft="15dp"-->
+            <!--android:text="4X4"-->
+            <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+            <!--android:textSize="18dp" />-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/fourxfour_iv_tick"-->
+            <!--android:layout_width="35dp"-->
+            <!--android:layout_height="35dp"-->
+            <!--android:layout_column="1"-->
+            <!--android:layout_marginLeft="-10dp"-->
+            <!--android:layout_row="7"-->
+            <!--android:src="@drawable/tick"-->
+            <!--android:visibility="invisible" />-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/fourxfour_iv_cross"-->
+            <!--android:layout_width="15dp"-->
+            <!--android:layout_height="15dp"-->
+            <!--android:layout_column="1"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:layout_row="7"-->
+            <!--android:src="@drawable/cross"-->
+            <!--android:visibility="invisible" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/power_windows_tv"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_column="0"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:layout_row="8"-->
+            <!--android:paddingLeft="15dp"-->
+            <!--android:text="Power Windows"-->
+            <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+            <!--android:textSize="18dp" />-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/power_windows_tick"-->
+            <!--android:layout_width="35dp"-->
+            <!--android:layout_height="35dp"-->
+            <!--android:layout_column="1"-->
+            <!--android:layout_marginLeft="-10dp"-->
+            <!--android:layout_row="8"-->
+            <!--android:src="@drawable/tick"-->
+            <!--android:visibility="invisible" />-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/power_windows_iv_cross"-->
+            <!--android:layout_width="15dp"-->
+            <!--android:layout_height="15dp"-->
+            <!--android:layout_column="1"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:layout_row="8"-->
+            <!--android:src="@drawable/cross"-->
+            <!--android:visibility="invisible" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/cruise_control_tv"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_column="0"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:layout_row="9"-->
+            <!--android:paddingLeft="15dp"-->
+            <!--android:text="Cruise Control"-->
+            <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+            <!--android:textSize="18dp" />-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/cruise_control_tick"-->
+            <!--android:layout_width="35dp"-->
+            <!--android:layout_height="35dp"-->
+            <!--android:layout_column="1"-->
+            <!--android:layout_marginLeft="-10dp"-->
+            <!--android:layout_row="9"-->
+            <!--android:src="@drawable/tick"-->
+            <!--android:visibility="invisible" />-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/cruise_control_iv_cross"-->
+            <!--android:layout_width="15dp"-->
+            <!--android:layout_height="15dp"-->
+            <!--android:layout_column="1"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:layout_row="9"-->
+            <!--android:src="@drawable/cross"-->
+            <!--android:visibility="invisible" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/system_monitor_tv"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_column="0"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:layout_row="10"-->
+            <!--android:paddingLeft="15dp"-->
+            <!--android:text="System Monitor"-->
+            <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+            <!--android:textSize="18dp" />-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/system_monitor_tick"-->
+            <!--android:layout_width="35dp"-->
+            <!--android:layout_height="35dp"-->
+            <!--android:layout_column="1"-->
+            <!--android:layout_marginLeft="-10dp"-->
+            <!--android:layout_row="10"-->
+            <!--android:src="@drawable/tick"-->
+            <!--android:visibility="invisible" />-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/system_monitor_cross"-->
+            <!--android:layout_width="15dp"-->
+            <!--android:layout_height="15dp"-->
+            <!--android:layout_column="1"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:layout_row="10"-->
+            <!--android:src="@drawable/cross"-->
+            <!--android:visibility="invisible" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/power_door_locks_tv"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_column="0"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:layout_row="11"-->
+            <!--android:paddingLeft="15dp"-->
+            <!--android:text="Power Door Locks"-->
+            <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+            <!--android:textSize="18dp" />-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/power_door_locks_tick"-->
+            <!--android:layout_width="35dp"-->
+            <!--android:layout_height="35dp"-->
+            <!--android:layout_column="1"-->
+            <!--android:layout_marginLeft="-10dp"-->
+            <!--android:layout_row="11"-->
+            <!--android:src="@drawable/tick"-->
+            <!--android:visibility="invisible" />-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/power_door_locks_cross"-->
+            <!--android:layout_width="15dp"-->
+            <!--android:layout_height="15dp"-->
+            <!--android:layout_column="1"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:layout_row="11"-->
+            <!--android:src="@drawable/cross"-->
+            <!--android:visibility="invisible" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/mp3_player_tv"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_column="0"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:layout_row="12"-->
+            <!--android:paddingLeft="15dp"-->
+            <!--android:text="Mp3 Player"-->
+            <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+            <!--android:textSize="18dp" />-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/mp3_player_tick"-->
+            <!--android:layout_width="35dp"-->
+            <!--android:layout_height="35dp"-->
+            <!--android:layout_column="1"-->
+            <!--android:layout_marginLeft="-10dp"-->
+            <!--android:layout_row="12"-->
+            <!--android:src="@drawable/tick"-->
+            <!--android:visibility="invisible" />-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/mp3_player_cross"-->
+            <!--android:layout_width="15dp"-->
+            <!--android:layout_height="15dp"-->
+            <!--android:layout_column="1"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:layout_row="12"-->
+            <!--android:src="@drawable/cross"-->
+            <!--android:visibility="invisible" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/analog_display_tv"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_column="0"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:layout_row="13"-->
+            <!--android:paddingLeft="15dp"-->
+            <!--android:text="Analog Display"-->
+            <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+            <!--android:textSize="18dp" />-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/analog_display_tick"-->
+            <!--android:layout_width="35dp"-->
+            <!--android:layout_height="35dp"-->
+            <!--android:layout_column="1"-->
+            <!--android:layout_marginLeft="-10dp"-->
+            <!--android:layout_row="13"-->
+            <!--android:src="@drawable/tick"-->
+            <!--android:visibility="invisible" />-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/analog_display_cross"-->
+            <!--android:layout_width="15dp"-->
+            <!--android:layout_height="15dp"-->
+            <!--android:layout_column="1"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:layout_row="13"-->
+            <!--android:src="@drawable/cross"-->
+            <!--android:visibility="invisible" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/air_filtration_tv"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_column="0"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:layout_row="14"-->
+            <!--android:paddingLeft="15dp"-->
+            <!--android:text="Air Filtration"-->
+            <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+            <!--android:textSize="18dp" />-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/air_filtration_tick"-->
+            <!--android:layout_width="35dp"-->
+            <!--android:layout_height="35dp"-->
+            <!--android:layout_column="1"-->
+            <!--android:layout_marginLeft="-10dp"-->
+            <!--android:layout_row="14"-->
+            <!--android:src="@drawable/tick"-->
+            <!--android:visibility="invisible" />-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/air_filtration_cross"-->
+            <!--android:layout_width="15dp"-->
+            <!--android:layout_height="15dp"-->
+            <!--android:layout_column="1"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:layout_row="14"-->
+            <!--android:src="@drawable/cross"-->
+            <!--android:visibility="invisible" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/chrome_bodyside_insert_tv"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_column="0"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:layout_row="15"-->
+            <!--android:paddingLeft="15dp"-->
+            <!--android:text="Chrome Bodyside"-->
+            <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+            <!--android:textSize="18dp" />-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/chrome_bodyside_insert_tick"-->
+            <!--android:layout_width="35dp"-->
+            <!--android:layout_height="35dp"-->
+            <!--android:layout_column="1"-->
+            <!--android:layout_marginLeft="-10dp"-->
+            <!--android:layout_row="15"-->
+            <!--android:src="@drawable/tick"-->
+            <!--android:visibility="invisible" />-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/chrome_bodyside_insert_cross"-->
+            <!--android:layout_width="15dp"-->
+            <!--android:layout_height="15dp"-->
+            <!--android:layout_column="1"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:layout_row="15"-->
+            <!--android:src="@drawable/cross"-->
+            <!--android:visibility="invisible" />-->
+
+        <TextView
+            android:id="@+id/rear_spoiler_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginTop="5dp"
+            android:layout_row="16"
+            android:paddingLeft="15dp"
+            android:text="Rear Spoiler"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:id="@+id/rear_spoiler_tick"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_column="1"
+            android:layout_marginLeft="-10dp"
+            android:layout_row="16"
+            android:src="@drawable/tick"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/rear_spoiler_cross"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_column="1"
+            android:layout_marginTop="8dp"
+            android:layout_row="16"
+            android:src="@drawable/cross"
+            android:visibility="invisible" />
+
+        <!--<TextView-->
+            <!--android:id="@+id/bluetooth_tv"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_column="0"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:layout_row="17"-->
+            <!--android:paddingLeft="15dp"-->
+            <!--android:text="Bluetooth"-->
+            <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+            <!--android:textSize="18dp" />-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/bluetooth_tick"-->
+            <!--android:layout_width="35dp"-->
+            <!--android:layout_height="35dp"-->
+            <!--android:layout_column="1"-->
+            <!--android:layout_marginLeft="-10dp"-->
+            <!--android:layout_row="17"-->
+            <!--android:src="@drawable/tick"-->
+            <!--android:visibility="invisible" />-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/bluetooth_cross"-->
+            <!--android:layout_width="15dp"-->
+            <!--android:layout_height="15dp"-->
+            <!--android:layout_column="1"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:layout_row="17"-->
+            <!--android:src="@drawable/cross"-->
+            <!--android:visibility="invisible" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/stereo_tv"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_column="0"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:layout_row="18"-->
+            <!--android:paddingLeft="15dp"-->
+            <!--android:text="Stereo"-->
+            <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+            <!--android:textSize="18dp" />-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/stereo_tick"-->
+            <!--android:layout_width="35dp"-->
+            <!--android:layout_height="35dp"-->
+            <!--android:layout_column="1"-->
+            <!--android:layout_marginLeft="-10dp"-->
+            <!--android:layout_row="18"-->
+            <!--android:src="@drawable/tick"-->
+            <!--android:visibility="invisible" />-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/stereo_cross"-->
+            <!--android:layout_width="15dp"-->
+            <!--android:layout_height="15dp"-->
+            <!--android:layout_column="1"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:layout_row="18"-->
+            <!--android:src="@drawable/cross"-->
+            <!--android:visibility="invisible" />-->
+
+        <TextView
+            android:id="@+id/short_description_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="20"
+            android:paddingLeft="15dp" />
+
+
+    </GridLayout>
+</ScrollView>

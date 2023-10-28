@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:id="@+id/model_tv"
+            android:text="Lexus GX 460"
+            android:paddingLeft="13dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="210dp"
+            android:layout_marginTop="38dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:id="@+id/offer_image_view"
+            android:src="@drawable/lexus_gx"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="28dp"
+            android:id="@+id/textView16"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="180dp"
+            android:background="@color/orange"
+            android:text="$41,500" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Color: Gray"
+            android:id="@+id/color_tv"
+            android:layout_marginTop="260dp"
+            android:layout_marginLeft="13dp"
+            android:textSize="17dp"
+            android:textColor="@color/orange"/>
+
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+
