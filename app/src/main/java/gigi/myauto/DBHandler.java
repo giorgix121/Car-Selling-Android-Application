@@ -15,9 +15,7 @@ import java.util.List;
 import gigi.myauto.models.*;
 import gigi.myauto.models.Offer;
 
-/**
- * Created by GIGI on 4/26/16.
- */
+
 public class DBHandler extends SQLiteOpenHelper {
 
 
