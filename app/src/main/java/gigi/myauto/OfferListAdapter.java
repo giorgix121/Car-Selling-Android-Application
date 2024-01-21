@@ -16,9 +16,7 @@ import java.util.concurrent.CopyOnWriteArrayList;
 
 import gigi.myauto.models.Offer;
 
-/**
- * Created by UGLemondoTrainings on 5/3/16.
- */
+
 public class OfferListAdapter extends BaseAdapter {
 
     private List<Offer> offerList;
